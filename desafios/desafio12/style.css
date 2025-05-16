@@ -1,0 +1,33 @@
+@charset "UTF-8";
+header{
+    background-color: black;
+    padding: 35px;
+    margin: -8px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 1px
+}
+nav{
+    text-align: center;
+    padding: 1px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#por{
+    color: white;
+    margin: 5px;
+}
+
+#cordel{
+    text-align: left;
+}
