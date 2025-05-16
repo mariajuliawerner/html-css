@@ -1,33 +1,60 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: darkgrey;
+    min-height: 100%;
+}
 header{
     background-color: black;
+    color: white;
+    text-align: center;
     padding: 35px;
     margin: -8px;
 }
-
-h1{
-    color: white;
-    text-align: center;
-    margin: 1px
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 nav{
-    text-align: center;
-    padding: 1px;
+    padding-bottom: 50px;
 }
-
-a{
+#primeiroP{
+    padding-top: 10px;
+}
+header a, footer a {
     color: white;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bolder;
 }
-a:hover{
+a:hover, footer a:hover{
     text-decoration: underline;
 }
-#por{
-    color: white;
-    margin: 5px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-
-#cordel{
-    text-align: left;
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(22, 22, 22);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
