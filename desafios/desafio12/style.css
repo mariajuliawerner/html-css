@@ -59,12 +59,12 @@ section > p{
     padding-bottom: 2.2em;
 }
 section#img01{
-    background-image: url(../desafio12/imagens/background001.jpg);
+    background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
 }
 section#img02{
-    background-image: url(../desafio12/imagens/background002.jpg);
+    background-image: url(imagens/background002.jpg);
     background-position: center;
     background-position: cover;
 }
