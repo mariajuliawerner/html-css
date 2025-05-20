@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 450px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+        td, th{
+            padding: 10px;
+            border: 2px, solid, black;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: left;
+        }
+        tbody > tr:nth-child(2n-1){
+            background-color: lightgray;
+        }
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            background-color: lightgray;
+            border: 1px solid black;
+            padding: 8px;
+            box-shadow: unset 0px 10px 2px black;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando tabelas</h1>
+    <table>
+        <caption>Comidas típicas dos estados brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">Comida Típica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>Pão de Queijo</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>Biscoito Globo</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Acarajé</td>
+            </tr>
+                <td>Rio Grande do Sul</td>
+                <td>Churrasco</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>Açaí</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>Moqueca</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>Barreado</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>Virado a Paulista</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>Galinhada</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>Sopa de Mocotó</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>Arrumadinho</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>Bobó de Camarão</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>Peixada Cearense</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>Arroz de Cuxá</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>Farofa de Carne de Sol</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>Empadão</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>Bolo de Rolo</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Geral</th>
+                <td>Café</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
