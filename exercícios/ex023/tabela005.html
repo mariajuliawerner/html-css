@@ -19,59 +19,73 @@
             font-size: 40px;
             padding: 10px;
         }
+        col.grupo{
+            background-color: rgb(207, 177, 236);
+        }
+        col.nomeEfilme{
+            background-color: aqua;
+        }
+        div{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <caption>Filmes Favoritos</caption>
-        <thead>
-            <th scope="col">Grupo</th>
-            <th scope="col">Nomes</th>
-            <th scope="colgroup" colspan="3">Filmes</th>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="3" scope="rowgroup">Mulheres</th>
-                <td>Maria Julia</td>
-                <td>101 Dálmatas</td>
-                <td>O Cão e a Raposa</td>
-                <td>Diário de uma paixão</td>
-            </tr>
-            <tr>
-                <td>Gabriela</td>
-                <td>Vingadores</td>
-                <td>Batman</td>
-                <td>Bambi</td>
-            </tr>
-            <tr>
-                <td>Beatriz Souza</td>
-                <td>Matrix</td>
-                <td>Bird box</td>
-                <td>Gladiador</td>
-            </tr>
-            <tr>
-                <th rowspan="3" scope="rowgroup">Homens</th>
-                <td>Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnésia</td>
-                <td>Homem-Aranha</td>
-            </tr>
-            <tr>
-                <td>Daniel Lourenço</td>
-                <td>Wall-E</td>
-                <td>Oldboy</td>
-                <td>Dangal</td>
-            </tr>
-            <tr>
-                <td>Fabiano Mota</td>
-                <td>Star Wars</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
+    <div>
+        <table>
+              <colgroup>
+                <col class="grupo">
+                <col class="nomeEfilme" span="5">
+            </colgroup>
+            <caption>Filmes Favoritos</caption>
+            <thead>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Mulheres</th>
+                    <td>Maria Julia</td>
+                    <td>101 Dálmatas</td>
+                    <td>O Cão e a Raposa</td>
+                    <td>Diário de uma paixão</td>
+                </tr>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Vingadores</td>
+                    <td>Batman</td>
+                    <td>Bambi</td>
+                </tr>
+                <tr>
+                    <td>Beatriz Souza</td>
+                    <td>Matrix</td>
+                    <td>Bird box</td>
+                    <td>Gladiador</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Amnésia</td>
+                    <td>Homem-Aranha</td>
+                </tr>
+                <tr>
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr>
+                    <td>Fabiano Mota</td>
+                    <td>Star Wars</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
